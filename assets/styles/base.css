@@ -27,8 +27,8 @@ but it will be hidden from our eyes */
 
 .container {
   width: 1160px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
 }
