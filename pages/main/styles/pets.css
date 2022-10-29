@@ -1,0 +1,129 @@
+
+
+section.pets{
+    margin-top: 180px;
+}
+
+.pets-cards-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+.cards-row-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -21px;
+}
+
+.row-between-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: orange;
+  }
+
+.left{
+    margin-left: -82px;
+}
+
+.left:active{
+    content: url(../../../assets/icons/arrow-ellipse-left-green.svg);
+
+}
+
+.right{
+    margin-right: -82px;
+}
+
+.right:active{
+    content: url(../../../assets/icons/arrow-ellipse-right-green.svg);
+}
+
+.cards-row-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -21px;
+}
+
+.pet-card{
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    border: 1px solid #FA6F32;
+}
+
+.pet-card > img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.card-content-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 8px 12px 14px 16px;
+    height: 60px;
+
+
+}
+
+.card-text{
+
+}
+
+p.name{
+    height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+p.location{
+    height: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 0;
+}
+
+.card-icon-container{
+    width: 33px;
+    height: 37px;
+}
+
+.card2 .card-icon-container,
+.card5 .card-icon-container,
+.card6 .card-icon-container{
+    width: 48px;
+    height: 38px;
+    margin-right: -4px;
+}
+
+.card-icon-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.pets-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
