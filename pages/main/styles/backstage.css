@@ -1,5 +1,14 @@
+.backstage-pets-wrapper-bg{
+    background-image: url(../../../assets/images/backstage-section-flower.png),
+    url(../../../assets/images/pets-section-palm-foto.png),
+    url(../../../assets/images/pets-section-strelitzia-photo.png);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom, right bottom;
+    background-size: 204px 613px, 292px 460px, 368px 275px;
+}
+
 section.backstage{
-    margin-top: 140px;
+    padding-top: 140px;
 }
 
 .backstage-row{
