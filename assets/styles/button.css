@@ -12,23 +12,26 @@ a.button {
     text-align: center;
     border-radius: 25px;
     padding: 16px 0;
+    text-transform: uppercase;
 }
 
 
 
 .button:hover,
 a.button:hover{
-background-color:#E47209;
+    background-color:#E47209;
+    transition: 0.1s s ease-in-out;
 }
 
 .button:active,
 a.button:active{
-background-color:#4B9200;
+    background-color:#4B9200;
+    transition: 0.1s ease-in-out;
 }
 
 .button:disabled,
 a.button:disabled{
-background-color:#767474;
+    background-color:#767474;
 }
 
 .squared-button,
@@ -40,11 +43,14 @@ a.squared-button{
 .squared-button:hover,
 a.squared-button:hover{
     background-color:#E47209;
+    transition: 0.1s ease-in-out;
+
 }
 
 .squared-button:active,
 a.squared-button:active{
     background-color:#4B9200;
+    transition: 0.1s ease-in-out;
 }
 
 .squared-button:disabled,
