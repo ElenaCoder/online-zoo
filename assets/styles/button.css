@@ -35,9 +35,19 @@ a.button:disabled{
 }
 
 .squared-button,
-a.squared-button{
-    border-radius: 5px;
+a.squared-button {
+
+    width: 298px;
+    height: 54px;
     background-color: #F9804B;
+    color: #FFFFFF;;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 0;
+    text-transform: uppercase;
 }
 
 .squared-button:hover,
