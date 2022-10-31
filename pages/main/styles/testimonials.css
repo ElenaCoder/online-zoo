@@ -95,34 +95,51 @@ section.testimonials{
 
 /*-------------*/
 
-.scrol-bar-row{
-    margin-bottom: 31px;
-    height: 8px;
+
+/*New version of scrol from W3school - https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+.slidecontainer {
     width: 599px;
+    border-color: red;
+    margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
-    border-radius:5px;
-    background-color: #F5F7F6;
-    border:0.5px solid rgba(254, 189, 171, 0.74);
-}
+  }
 
-.scroll-line{
+  .slider {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 8px;
+
+    background: #F5F7F6;
+    background: #e6e5e5;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    appearance: none;
     width: 115px;
-    height: 6px;
-    border-radius:5px;
-    background-color: rgba(254, 144, 19, 1);
-}
+    height: 8px;
+    background: #FE9013;
+    cursor: pointer;
+  }
 
-.scroll-line:hover{
-    background-color: rgba(228, 114, 9, 1);
-    transition: 0.1s ease-in-out;
-}
-
-.scroll-line:active{
-    background-color: rgba(75, 146, 0, 1);
-    transition: 0.1s ease-in-out;
-}
-
+  .slider::-moz-range-thumb {
+    width: 115px;
+    height: 8px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+/*------*/
 .testimonials-button{
     display: flex;
     justify-content: left;
