@@ -33,7 +33,9 @@ section.pick-and-feed{
 
 .text-wrapper .subtitle{
     font-size: 24px;
-    line-height: 28.8px;
+    line-height: 29px;
+    text-align: left;
+    vertical-align: top;
     margin-bottom: 40px;
     color:#333B41;
 }
@@ -41,7 +43,9 @@ section.pick-and-feed{
 .text-wrapper p{
     font-size: 16px;
     line-height: 21px;
-    line-height: 120%;
+    line-height: 130%;
+    text-align: left;
+    vertical-align: top;
     margin: 0;
     color:#333B41;
     width: 1061px;
