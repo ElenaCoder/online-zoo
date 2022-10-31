@@ -88,7 +88,6 @@ footer.footer{
     color: rgba(0, 0, 0, 1);
     border: 1px solid rgba(51, 59, 65, 1);
     border-radius: 5px;
-    offset: 0 4px;
   }
 
   .form button:active {
