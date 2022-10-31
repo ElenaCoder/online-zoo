@@ -68,6 +68,10 @@ section.pets{
     width: 100%;
 }
 
+.pet-card > img:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
 .card-content-container{
     display: flex;
     justify-content: space-between;
@@ -75,13 +79,13 @@ section.pets{
 
     padding: 8px 12px 14px 16px;
     height: 60px;
+}
 
+.card-content-container:hover{
+    background-color: rgba(241, 243, 242, 1);
 
 }
 
-.card-text{
-
-}
 
 p.name{
     height: 22px;
@@ -100,6 +104,10 @@ p.location{
     line-height: 120%;
     color: #000000;
     margin-top: 0;
+}
+
+p.name:hover{
+    font-size: 105%;
 }
 
 .card-icon-container{
