@@ -70,6 +70,7 @@ section.pets{
 
 .pet-card > img:hover{
     transform: translate3D(0,-1px,0) scale(1.03);
+    transition: 0.1s ease-in-out;
 }
 
 .card-content-container{
@@ -83,6 +84,7 @@ section.pets{
 
 .card-content-container:hover{
     background-color: rgba(241, 243, 242, 1);
+    transition: 0.1s ease-in-out;
 
 }
 
@@ -108,6 +110,7 @@ p.location{
 
 p.name:hover{
     font-size: 105%;
+    transition: 0.1s ease-in-out;
 }
 
 .card-icon-container{
