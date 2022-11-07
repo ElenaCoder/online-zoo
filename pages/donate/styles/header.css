@@ -11,6 +11,10 @@ header.header {
   /* justify-content: space-between; */
 }
 
+.header-row h1{
+  display: none;
+}
+
 .header-logo {
     margin-right: 63px;
   }
