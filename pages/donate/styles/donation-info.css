@@ -1,0 +1,429 @@
+section.donation-info{
+    height: 1482px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.donation-info-container{
+    padding: 40px 0 180px;
+    width: 1160px;
+    height: 1482px;
+    /* border: 1px solid blue; */
+
+}
+
+.donation-text{
+    height: 298px;
+    /* border: 1px solid red; */
+    background:transparent;
+}
+
+.donation-text h3:first-child{
+    font-size: 36px;
+    /* font-weight: 500; */
+    line-height: 47px;
+    /* line-height: 130%; */
+    text-align:left;
+    vertical-align: top;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    /* text-transform: uppercase; */
+}
+
+.donation-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    /* line-height: 130%; */
+    text-align:left;
+    vertical-align: top;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.donation-text h3:last-child{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    /* line-height: 130%; */
+    text-align:left;
+    vertical-align: top;
+    color: #FE9013;
+    margin-bottom: 60px;
+    }
+
+
+.donation-animal-pay{
+    height: 964px;
+    /* border: 1px solid green; */
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 20px;
+    padding: 40px 92px 62px 92px;
+}
+
+.donation-animal-pay > h2{
+    font-size: 48px;
+    line-height: 58px;
+    text-align:center;
+    vertical-align: top;
+    color: #FE9013;
+    margin-bottom: 20px;
+}
+
+.donation-animal-pay p{
+    font-size: 24px;
+    line-height: 29px;
+    text-align:left;
+    vertical-align: top;
+    color: #333B41;
+    margin-bottom: 60px;
+}
+
+
+.animal-to-choose{
+    display: flex;
+    justify-content: left;
+
+    width: 532px;
+    height: 246px;
+    margin: 0 229px 48px 215px;
+}
+
+.number-block{
+    height: 246px;
+    width: 159px;
+    margin-right: 11px;
+    padding: 105px 0 50px 0;
+}
+
+.number-block .number{
+    font-size: 72px;
+    line-height: 58px;
+    line-height: 80%;
+    text-align: center;
+    vertical-align: top;
+    color:#000000;
+    margin-bottom: 11px;
+
+}
+
+.number-block p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: top;
+    color: rgba(51, 59, 65, 1);
+    margin: 0;
+}
+
+.product-sign{
+    width: 14px;
+    height: 14px;
+    margin-top: 130px;
+    margin-right: 64px;
+}
+
+.product-sign img{
+    width: 100%;
+}
+
+.animal-widget{
+    width: 284px;
+    height: 246px;
+}
+
+.animal-widget img{
+    width: 100%;
+}
+
+/*-------------------*/
+.money-amount-bar{
+    height: 114px;
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+}
+
+.money-amount-bar p{
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: left;
+    vertical-align: top;
+    color:#000000;
+    margin-bottom: 17px;
+}
+
+.money-amount-bar .black-strip{
+    width: 974px;
+    height: 27px;
+    border-radius: 2px;
+    background-color:rgba(64, 73, 80, 1);
+
+}
+
+.black-strip{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: -15px;
+}
+
+.grey-line{
+    width: 915px;
+    border:1px solid #72828E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -7px;
+}
+
+.radio-buttons-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 920px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-wrapper{
+    position: relative; /*parent*/
+
+
+    width: 78px;
+    border: 1px solid blue;
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.button-wrapper input {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+
+    z-index: -5;
+    margin-bottom: 21px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* .button-wrapper input[type="radio"]:checked  .circles {
+    visibility: visible;
+    color: #FE9013;
+} */
+
+.button-wrapper:hover{
+    cursor: pointer;
+    color: #FE9013;
+}
+
+.radio-circle{
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0px 0px -5px;
+    background-color: yellow;
+}
+
+
+.small-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    visibility: hidden;
+
+    background: transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: -10px 0px 0px -10px;
+    outline: 2px solid #F9804B;
+}
+
+.three .small-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* visibility: hidden; */
+    visibility: visible;
+
+    background: transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: -10px 0px 0px -10px;
+    outline: 2px solid #F9804B;
+}
+
+.big-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    visibility: hidden;
+
+    background: transparent;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin: -18px 0px 0px -18px;
+    outline: 2px solid #F9804B;
+}
+
+.three .big-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* visibility: hidden; */
+    visibility: visible;
+
+    background: transparent;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin: -18px 0px 0px -18px;
+    outline: 2px solid #F9804B;
+}
+
+.button-wrapper p {
+    position: absolute;
+    top: 28px;
+    left: -30px;
+
+    visibility: visible;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+    text-align: left;
+    vertical-align: top;
+    color:#333B41;
+    /* color: rgba(254, 144, 19, 1); */
+    /* margin-left: -30px; */
+    margin-bottom: 0;
+}
+
+.three p {
+    position: absolute;
+    top: 28px;
+    left: -30px;
+
+    visibility: visible;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+    text-align: left;
+    vertical-align: top;
+    color: rgba(254, 144, 19, 1);
+    /* margin-left: -30px; */
+    margin-bottom: 0;
+}
+
+/*-------------------*/
+
+.confirmantion-block{
+    /* width: 301px; */
+    width: 303px;
+    /* border: 1px solid black; */
+    height: 237px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.amount-money{
+    position: relative; /*parent*/
+
+    width: 268px;
+    height: 54px;
+    background-color: transparent;
+    border: 2px solid #929699;
+    border-radius: 2px;
+    padding-left: 9px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 23px;
+}
+
+.amount-money input{
+    width: 268px;
+    height: 54px;
+    background-color: transparent;
+
+    line-height: 22.4px;
+    color: rgba(146, 150, 153, 1);
+}
+
+span{
+    position: absolute; /*child*/
+
+    display: inline-block;
+    top: 16px;
+    right: 7px;
+    /* font-size: 20px; */
+    color:rgba(146, 150, 153, 1);
+    width: 10px;
+    height: 20px;
+
+}
+
+form.form{
+    display: flex;
+    justify-content:start;
+    margin-bottom: 31px;
+    /* margin-top: 80px; */
+}
+
+.option-one{
+    display: flex;
+    justify-content:start;
+
+    width: 84px;
+    height: 21px;
+    margin-left: 42px;
+    margin-right: 50px;
+}
+
+.option-one > input{
+    margin-right: 10px;
+}
+
+.option-two{
+    display: flex;
+    justify-content:start;
+
+    width: 84px;
+    height: 21px;
+}
+
+.option-two > input{
+    margin-right: 10px;
+}
+
+
+
+.donation-info-button{
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.confirmantion-block p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: top;
+    color: rgba(51, 59, 65, 1);
+}
