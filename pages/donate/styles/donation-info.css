@@ -407,6 +407,7 @@ form.form{
 
 .option-one > input{
     margin-right: 10px;
+    accent-color: #F9804B;
 }
 
 .option-two{
@@ -419,6 +420,7 @@ form.form{
 
 .option-two > input{
     margin-right: 10px;
+    accent-color: #F9804B;
 }
 
 
