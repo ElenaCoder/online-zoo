@@ -43,7 +43,7 @@ nav.header-nav a {
   transition: color 0.1s ease;
 }
 
-nav.header-nav>ul>li:first-child {
+nav.header-nav>ul>li:nth-child(4) {
   color: orange;
 }
 

@@ -184,7 +184,7 @@ nav.footer-nav {
   }
 
   nav.footer-nav>ul>li:first-child {
-    color: orange;
+    /* color: orange; */
   }
 
   nav.footer-nav ul li a:hover {
