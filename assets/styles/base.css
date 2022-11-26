@@ -33,7 +33,7 @@ but it will be hidden from our eyes */
   margin-right: auto;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
   .container{
       max-width: 1160px;
   }
@@ -65,6 +65,6 @@ but it will be hidden from our eyes */
 
 @media screen and (max-width: 639px) {
   .container{
-      max-width: 639px;
+      max-width: 320px;
   }
 }
