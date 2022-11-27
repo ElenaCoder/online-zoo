@@ -58,3 +58,99 @@ section.backstage{
     line-height: 22.4px;
     color: #333B41;
 }
+
+@media screen and (max-width: 1440px) {
+    section.backstage{
+        padding-top: 110px;
+    }
+    .backstage-img-wrapper{
+        width: 455px;
+        height: 408px;
+    }
+    .backstage-pets-wrapper-bg{
+        background-image:  url(../../../assets/images/palm_foto-small-desktop.png),
+        url(../../../assets/images/pets-section-strelitzia-photo.png);
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom;
+        background-size:  194px 202px, 241px 180px;
+    }
+    .backstage-content{
+        /* border: 2px solid red; */
+        width: 454px;
+        margin-top: -10px;;
+    }
+  }
+
+
+  @media screen and (max-width: 999px) {
+    section.backstage{
+        padding-top: 70px;
+    }
+    .backstage-img-wrapper{
+        display: none;
+    }
+    .backstage-pets-wrapper-bg{
+        background-image: url(../../../assets/images/backstage-section-flower-tablet.png),
+        url(../../../assets/images/pets-section-palm-foto.png),
+        url(../../../assets/images/pets-section-strelitzia-photo.png);
+        background-repeat: no-repeat;
+        background-position: right top, left bottom, right bottom;
+        background-size: 132px 484px, 194px 202px, 175px 131px;
+    }
+    .backstage-heading + p {
+        margin-bottom: 30px;
+    }
+
+    .subtitle{
+        margin-bottom: 20px;
+    }
+    .subtitle + p {
+        width: 495px;
+    }
+  }
+
+  @media screen and (max-width: 639px) {
+    section.backstage{
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .backstage-img-wrapper{
+        display: none;
+    }
+    .backstage-content{
+        margin: 0;
+    }
+    .backstage-pets-wrapper-bg{
+        background-image: url(../../../assets/images/backstage-section-flower-mobile.png),
+        url(../../../assets/images/pets-section-palm-foto.png),
+        url(../../../assets/images/pets-section-strelitzia-photo.png);
+        background-repeat: no-repeat;
+        background-position: right top, left bottom, right bottom;
+        background-size: 35px 225px, 58px 72px, 68px 71px;
+    }
+
+    .backstage-heading{
+        font-size: 24px;
+        line-height: 28.8px;
+        margin-bottom: 10px;
+    }
+    .backstage-heading + p {
+        font-size: 16px;
+        line-height: 20.8px;
+        margin-bottom: 20px;
+        width: 297px;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        line-height: 28.8px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle + p {
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 300px;
+    }
+  }

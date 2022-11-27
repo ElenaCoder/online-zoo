@@ -147,6 +147,7 @@ section.home{
 @media screen and (max-width:639px) {
     section.home{
         height: 187px;
+        margin-bottom: 60px;
     }
     .home-content{
         display: flex;
