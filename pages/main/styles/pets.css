@@ -139,3 +139,130 @@ p.name:hover{
     margin-top: 80px;
 }
 
+@media screen and (max-width: 1440px) {
+    section.pets{
+        padding-top: 142px;
+        padding-bottom: 140px;
+    }
+    .pet-card{
+        width: 294px;
+        height: 354px;
+    }
+
+    .cards-row-one{
+        margin-bottom: 15px;
+    }
+    .row-between-cards{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .left{
+        margin-right: 85.5px;
+    }
+
+    .right{
+        margin-left: 85.5px;
+    }
+    .cards-row-two{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    section.pets{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .pet-card{
+        width: 285px;
+        height: 332px;
+    }
+    p.name{
+        height: 17.5px;
+        font-size: 12.5px;
+    }
+
+    p.location{
+        height: 14px;
+        font-size: 12px;
+    }
+    .card-icon-container{
+        width: 26px;
+        height: 29px;
+    }
+    .card2 .card-icon-container,
+    .card5 .card-icon-container,
+    .card6 .card-icon-container{
+        width: 38px;
+        height: 30px;
+        margin-right: -4px;
+}
+
+    .cards-row-one{
+        /* width: 315px; */
+        margin-bottom: 15px;
+    }
+    .card3{
+        display: none;
+    }
+
+    .row-between-cards{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .left{
+        margin-right: 15px;
+    }
+
+    .right{
+        margin-left: 15px;
+    }
+    .cards-row-two{
+        margin-top: 0px;
+    }
+    .card6{
+        display: none;
+    }
+    .pets-button{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+.pets-cards-container{
+    margin-left: 5px;
+}
+    section.pets{
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    .cards-row-one{
+        flex-direction: column;
+    }
+    .card1,
+    .card4{
+        margin-bottom: 20px;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6{
+        align-self: center;
+    }
+    .cards-row-two{
+        flex-direction: column;
+    }
+    .row-between-cards{
+        display: none;
+    }
+    .pets-button{
+        margin-top: 20px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+}
+
