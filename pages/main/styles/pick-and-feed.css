@@ -52,6 +52,7 @@ section.pick-and-feed{
 }
 
 .text-wrapper .subtitle+p{
+    font-weight: 500;
     margin-bottom: 10px;
     color:#333B41;
 }
@@ -155,8 +156,245 @@ section.pick-and-feed{
     width: 65px;
     height: 35.08px;
 }
+.vector-wrapper .vector:nth-child(2){
+    display: none;
+}
 
 .how-it-works-button{
     display: flex;
     justify-content: center;
+}
+
+/*here we will check the layout of width=1000px, container width = 940*/
+@media screen and (max-width: 1440px) {
+    section.pick-and-feed{
+        height: 876px;
+        padding-top:30px;
+    }
+    .pick-and-feed-content{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 49px;
+        padding-right: 49px;
+        width: 940px;
+        height: 796px;
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        width: 844px;
+        height: 348px;
+    }
+    
+    .text-wrapper > h2{
+        margin-bottom: 20px;
+    }
+    
+    .text-wrapper .subtitle{
+        margin-bottom: 20px;
+    }
+    
+    .text-wrapper p{
+        width: 813px;
+    }
+    p.subtitle{
+        width: 844px;
+    }
+    .text-wrapper .subtitle+p{
+        margin-bottom: 10px;
+    }
+    
+    .text-wrapper .subtitle+p+p{
+        width: 823px;
+        margin-bottom: 40px;
+    }
+    
+    .how-it-works-row{
+        margin-left: 39px;
+        margin-right: 39px;
+        margin-bottom: 70px;
+    }
+}
+
+/*here we will check the layout of width=640px, container width = 600*/
+@media screen and (max-width: 999px) {
+    section.pick-and-feed{
+        height: 781px;
+        /* width: 640px; */
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pick-and-feed-content{
+        padding-top: 10px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 640px;
+        height: 741px;
+        margin-left:-20px;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        padding-left: 0;
+        padding-right: 0;
+        width: 600px;
+        height: 333px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .text-wrapper > h2{
+        font-size: 42px;
+        line-height: 50.4px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-wrapper .subtitle{
+        font-size: 22px;
+        line-height: 26.4px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-wrapper p{
+        width: 600px;
+    }
+    p.subtitle{
+        width: 600px;
+    }
+    .text-wrapper .subtitle+p{
+        margin-bottom: 10px;
+    }
+
+    .text-wrapper .subtitle+p+p{
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    .how-it-works-row{
+        justify-content:flex-start;
+        width: 600px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .card-one{
+        /* margin-right: 42px; */
+    }
+    .card-two{
+        /* margin-right: 42px; */
+    }
+    .vector-wrapper{
+        justify-content: flex-start;
+        width: 42px;
+        padding: 0;
+        z-index: 5;
+    }
+    .vector-wrapper>.vector{
+        display: none;
+    }
+    .vector-wrapper .vector:nth-child(2){
+        align-self: center;
+        display: block;
+        margin-top: -20px;
+        width: 89px;
+    }
+}
+
+/*here we will check the layout of width=320px, container width = 320*/
+@media screen and (max-width: 639px) {
+    section.pick-and-feed{
+        width: 320px;
+        height: 1082px;
+        padding: 20px 10.5px;
+    }
+    .pick-and-feed-content{
+        width: 300px;
+        height: 1042px;
+        padding: 20px 10px 40px;
+        margin-left: 0px;
+    }
+    .text-wrapper{
+        width: 298px;
+        height: 174px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .text-wrapper > h2{
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+        margin-bottom: 10px;
+        /* padding-left: 250px; */
+    }
+    .text-wrapper p.subtitle{
+        width: 298px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 21.6px;
+        font-weight: 400;
+        vertical-align: top;
+        margin-bottom: 20px;
+
+    }
+
+    .text-wrapper .subtitle+p{
+        display: none;
+    }
+
+    .text-wrapper .subtitle+p+p{
+        display: none;
+    }
+
+    .text-wrapper h3{
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    .how-it-works-row{
+        width: 297px;
+        height: 724px;
+        flex-direction: column;
+        align-items:center;
+        margin-bottom: 30px;
+        /* margin-left: -10px; */
+    }
+    .vector-wrapper{
+        justify-content: flex-start;
+        width: 42px;
+        padding: 0;
+        z-index: 5;
+        transform: rotate(80deg);
+    }
+    .vector-wrapper .vector:nth-child(2){
+        align-self:flex-end;
+        display: block;
+        margin-top: -115px;
+        margin-right: -5px;
+        width: 89px;
+    }
+    .card-one{
+        margin-bottom: 20px;
+    }
+    .card-two{
+        margin-bottom: 20px;
+    }
+    .card-content{
+        padding-top: 10px;
+    }
 }
