@@ -177,7 +177,7 @@ section.donation-info{
     display: flex;
     justify-content: space-between;
 
-    width: 920px;
+    max-width: 920px;
     /* border: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
@@ -441,3 +441,187 @@ form.form{
     vertical-align: top;
     color: rgba(51, 59, 65, 1);
 }
+
+/*here we will check the layout of width=1000px, container width = 940*/
+@media screen and (max-width: 1440px) {
+    section.donation-info{
+        height: 1333px;
+    }
+
+    .donation-info-container{
+        padding: 40px 0 30px;
+        width: 1000px;
+        height: 1333px;
+    }
+
+    .donation-text{
+        height: 345px;
+    }
+
+    .donation-text h3:first-child{
+        width: 778px;
+        margin-bottom: 30px;
+    }
+
+    .donation-text p{
+        font-weight: 500;
+        margin-bottom: 40px;
+        width: 939px;
+    }
+
+    .donation-text h3:last-child{
+        margin-bottom: 40px;
+    }
+    .donation-animal-pay{
+        height: 918px;
+        width: 940px;
+        padding: 20px 47px 30px;
+        margin-bottom: 30px;
+        /* margin-left: 30px;
+        margin-right: 30px; */
+    }
+
+    .donation-animal-pay > h2{
+        margin-bottom: 10px;
+        width: 463px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .donation-animal-pay p{
+        margin-bottom: 60px;
+    }
+
+
+    .animal-to-choose{
+        width: 532px;
+        height: 246px;
+        margin: 0 240px 48px 152px;
+    }
+/*-------------------*/
+.money-amount-bar{
+    height: 114px;
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+}
+
+.money-amount-bar p{
+    margin-bottom: 10px;
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.money-amount-bar .black-strip{
+    width: 810px;
+    height: 27px;
+
+}
+
+.black-strip{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: -15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey-line{
+    width: 770px;
+    border:1px solid #72828E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -7px;
+}
+
+.radio-buttons-container{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+/* padding-left: 30px; */
+/* margin-left: 5px; */
+}
+
+    .button-wrapper.one{
+        display: none;
+    }
+    .button-wrapper.two input{
+        margin-left: 10px;
+    }
+    .radio-buttons-container .button-wrapper:not(:last-child) {
+        /* margin-right: 127.5px; */
+    }
+    .button-wrapper{
+        position: relative; /*parent*/
+
+
+        width: 78px;
+        border: 1px solid blue;
+        height: 10px;
+        width: 10px;
+        background-color: yellow;
+        background: transparent;
+        border-radius: 50%;
+    }
+
+    .button-wrapper input {
+        position: absolute;
+        top: -3px;
+        right: -3px;
+
+        z-index: -5;
+        margin-bottom: 21px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .button-wrapper p {
+        position: absolute;
+        top: 28px;
+        left: -20px;
+
+        visibility: visible;
+
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36.4px;
+        text-align: left;
+        vertical-align: top;
+        color:#333B41;
+        /* color: rgba(254, 144, 19, 1); */
+        /* margin-left: -30px; */
+        margin-bottom: 0;
+    }
+
+    .three p {
+        position: absolute;
+        top: 28px;
+        left: -30px;
+
+        visibility: visible;
+
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36.4px;
+        text-align: left;
+        vertical-align: top;
+        color: rgba(254, 144, 19, 1);
+        /* margin-left: -30px; */
+        margin-bottom: 0;
+    }
+
+/*-------------------*/
+
+
+
+
+}
+
+/*here we will check the layout of width=640px, container width = 600*/
+@media screen and (max-width: 999px) {}
+
+/*here we will check the layout of width=320px, container width = 320*/
+@media screen and (max-width: 639px) {}
