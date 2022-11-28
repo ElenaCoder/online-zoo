@@ -144,3 +144,132 @@ section.testimonials{
     display: flex;
     justify-content: left;
 }
+
+/*here we will check the layout of width=1000px, container width = 940*/
+@media screen and (max-width: 1440px) {
+    section.testimonials{
+        height: 842px;
+    }
+    .testimonials-wrapper > h3{
+        margin-bottom: 30px;
+        width: 940px;
+    }
+    .testimonials-wrapper{
+        max-width: 842px;
+        height: 842px;
+        padding: 100px 0px 110px ;
+        margin-left: 0;
+        margin-right: 0;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .testimonials-cars-row .testimonials-card:nth-child(4){
+        display: none;
+    }
+    .testimonials-cars-row{
+        max-width: 939px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .testimonials-card{
+        width: 293px;
+    }
+    .slidecontainer{
+        width: 390px;
+        margin-bottom: 50px;
+    }
+}
+
+/*here we will check the layout of width=640px, container width = 600*/
+@media screen and (max-width: 999px) {
+    section.testimonials{
+        height: 669px;
+    }
+    .testimonials-wrapper{
+        padding-top: 60px;
+        padding-bottom: 80px;
+        height: 669px;
+        width: 600px;
+    }
+    .testimonials-wrapper > h3{
+        width: 600px;
+    }
+    .testimonials-cars-row{
+        width: 600px;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+    }
+    .testimonials-card{
+        width: 600px;
+        height: 109px;
+        overflow: hidden;
+    }
+    .testimonials-cars-row .testimonials-card:nth-child(1),
+    .testimonials-cars-row .testimonials-card:nth-child(2){
+        margin-bottom: 15px;
+    }
+    .testimonials-cars-row .testimonials-card:nth-child(3){
+        margin-bottom: 40px;
+    }
+    .slidecontainer{
+        display: none;
+    }
+    .testimonials-button{
+        width: 600px;
+        margin-top: -35px;
+        /* justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        height: 54px;
+    }
+}
+
+/*here we will check the layout of width=320px, container width = 320*/
+@media screen and (max-width: 639px) {
+    section.testimonials{
+        height: 580px;
+    }
+    .testimonials-wrapper{
+        padding-top: 30px;
+        padding-bottom: 60px;
+        height: 580px;
+        width: 320px;
+    }
+    .testimonials-wrapper > h3{
+        width: 320px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .testimonials-cars-row{
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .testimonials-card{
+        width: 299px;
+        height: 109px;
+        overflow: hidden;
+        padding: 11px 12px 12px;
+    }
+    .testimonials-cars-row .testimonials-card:nth-child(1),
+    .testimonials-cars-row .testimonials-card:nth-child(2){
+        margin-bottom: 15px;
+    }
+    .testimonials-cars-row .testimonials-card:nth-child(3){
+        margin-bottom: 30px;
+    }
+    .testimonials-button{
+        width: 320px;
+        margin-top: -48px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        height: 54px;
+    }
+}
