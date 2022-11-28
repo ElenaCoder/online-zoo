@@ -384,6 +384,10 @@ margin-bottom: 10px;
         nav.footer-nav li:not(:last-child) {
             margin-right: 37px;
         }
+        .footer-button {
+            width: 298px;
+            height: 54px;
+        }
     }
 @media screen and (max-width: 639px) {
     footer.footer{
@@ -476,4 +480,5 @@ justify-content:space-between;
     .author-school-wrapper p:nth-child(2){
         margin-bottom: 20px;
     }
+
 }
