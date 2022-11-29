@@ -727,7 +727,7 @@ form.form{
 
     .money-amount-bar p{
         margin-bottom: 10px;
-        max-width: 810px;
+        max-width: 200px;
         text-align: left;
         margin-left: 10px;
     }
