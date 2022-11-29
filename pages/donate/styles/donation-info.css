@@ -727,7 +727,7 @@ form.form{
 
     .money-amount-bar p{
         margin-bottom: 10px;
-        max-width: 200px;
+        max-width: 60px;
         text-align: left;
         margin-left: 10px;
     }
@@ -912,4 +912,317 @@ width: 301px;
 }
 
 /*here we will check the layout of width=320px, container width = 320*/
-@media screen and (max-width: 639px) {}
+@media screen and (max-width: 639px) {
+    section.donation-info{
+        height: 1145px;
+    }
+
+    .donation-info-container{
+        padding: 30px 10px 40px;
+        width: 300px;
+        height: 1333px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .donation-text{
+        /* height: 345px; */
+        height: 504px;
+    }
+
+    .donation-text h3:first-child{
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 400;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .donation-text p{
+        font-weight: 500;
+        margin-bottom: 30px;
+        line-height: 22.4px;
+        text-align: left;
+        vertical-align: top;
+        /* width: 939px; */
+        width: 300px;
+    }
+
+    .donation-text h3:last-child{
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .donation-animal-pay{
+        height: 918px;
+        /* width: 600px; */
+        width: 300px;
+        padding: 20px 10px 30px;
+        margin-bottom: 30px;
+        /* margin-left: 30px;
+        margin-right: 30px; */
+    }
+
+    .donation-animal-pay > h2{
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .donation-animal-pay p{
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+        width: 300px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    .animal-to-choose{
+        width: 300px;
+        height: 138px;
+        margin: 0 0px 5px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .number-block{
+        height: 138px;
+        width: 90px;
+        margin-right: 11px;
+        padding: 59px 0 28px 0;
+    }
+
+    .number-block .number{
+        font-size: 48px;
+        line-height: 58px;
+        line-height: 80%;
+        text-align: center;
+        vertical-align: top;
+        color:#000000;
+        margin-bottom: 11px;
+        width: 90px;
+
+    }
+
+    .number-block p{
+        font-size: 9px;
+        line-height: 12.6px;
+        text-align: left;
+        vertical-align: top;
+        color: rgba(51, 59, 65, 1);
+        margin: 0;
+        width: 90px;
+    }
+    .product-sign{
+        width: 14px;
+        height: 14px;
+        margin-top: 59px;
+        margin-right: 34px;
+    }
+    .animal-widget{
+        width: 160px;
+        height: 138px;
+    }
+
+/*-------------------*/
+    .money-amount-bar{
+        height: 114px;
+        /* border: 1px solid black; */
+        margin-bottom: 0px;
+    }
+
+    .money-amount-bar p{
+        margin-bottom: 10px;
+        max-width: 60px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .money-amount-bar .black-strip{
+        /* width: 810px; */
+        width: 300px;
+        height: 27px;
+    }
+
+    .black-strip{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: -15px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grey-line{
+        /* width: 770px; */
+        width: 300px;
+        border:1px solid #72828E;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -7px;
+    }
+
+    .radio-buttons-container{
+        display: flex;
+        justify-content: space-between;
+
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    /* padding-left: 30px; */
+    /* margin-left: 5px; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .button-wrapper.one{
+        display: none;
+    }
+    .button-wrapper.two input{
+        margin-left: 10px;
+    }
+    .radio-buttons-container .button-wrapper:not(:last-child) {
+        /* margin-right: 127.5px; */
+    }
+    .button-wrapper{
+        position: relative; /*parent*/
+
+
+        width: 78px;
+        border: 1px solid blue;
+        height: 10px;
+        width: 10px;
+        background-color: yellow;
+        background: transparent;
+        border-radius: 50%;
+    }
+
+    .button-wrapper input {
+        position: absolute;
+        top: -3px;
+        right: -3px;
+
+        z-index: -5;
+        margin-bottom: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .button-wrapper p {
+        position: absolute;
+        top: 28px;
+        left: -20px;
+
+        visibility: visible;
+
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36.4px;
+        text-align: left;
+        vertical-align: top;
+        color:#333B41;
+        /* color: rgba(254, 144, 19, 1); */
+        /* margin-left: -30px; */
+        margin-bottom: 0;
+    }
+    .button-wrapper .amount{
+        font-size: 13px;
+    }
+
+    .six .small-ring{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        /* visibility: hidden; */
+        visibility: visible;
+
+        background: transparent;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        margin: -10px 0px 0px -10px;
+        outline: 2px solid #F9804B;
+    }
+
+
+    .six .big-ring{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        /* visibility: hidden; */
+        visibility: visible;
+
+        background: transparent;
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+        margin: -18px 0px 0px -18px;
+        outline: 2px solid #F9804B;
+    }
+
+
+
+    .six p {
+        position: absolute;
+        top: 28px;
+        left: -30px;
+
+        visibility: visible;
+
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36.4px;
+        text-align: left;
+        vertical-align: top;
+        color: rgba(254, 144, 19, 1);
+        /* margin-left: -30px; */
+        margin-bottom: 0;
+    }
+
+    .two,
+    .three{
+        display: none;
+    }
+
+    form.amount-money{
+        position: relative; /*parent*/
+
+        width: 180px;
+        height: 42px;
+        background-color: transparent;
+        border: 2px solid #929699;
+        border-radius: 2px;
+        padding-left: 9px;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 15px;
+    }
+
+    .amount-money input{
+        width: 180px;
+        height: 42px;
+        background-color: transparent;
+
+        line-height: 22.4px;
+        color: rgba(146, 150, 153, 1);
+    }
+    .confirmantion-block p{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        vertical-align: top;
+        color: rgba(51, 59, 65, 1);
+        width: 301px;
+    }
+/*-------------------*/
+}
