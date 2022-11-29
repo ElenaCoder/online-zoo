@@ -446,12 +446,16 @@ form.form{
 @media screen and (max-width: 1440px) {
     section.donation-info{
         height: 1333px;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
 
     .donation-info-container{
         padding: 40px 0 30px;
-        width: 1000px;
+        width: 940px;
         height: 1333px;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
 
     .donation-text{
@@ -507,7 +511,7 @@ form.form{
 
 .money-amount-bar p{
     margin-bottom: 10px;
-    width: 810px;
+    max-width: 810px;
     margin-left: auto;
     margin-right: auto;
 }
