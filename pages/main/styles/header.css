@@ -70,6 +70,14 @@ i.hamburger-menu{
   color: #ffffff;
   display: none ;
 }
+
+nav.hamburger-nav{
+  display: none;
+}
+.overlay{
+  display: none;
+}
+
 /*--//HEADER--*/
 @media screen and (max-width: 1440px) {
   .header-row {
@@ -169,10 +177,67 @@ i.hamburger-menu{
   .header-copyright{
     display: none;
   }
-
+  /*hamburger-menu*/
   i.hamburger-menu{
     display: block;
+    position: relative
   }
+
+  nav.hamburger-nav{
+    display: none;
+
+
+    background:#ffffff;
+    position: absolute;
+    right: 0;
+    top: 26px;
+    color:rgba(51, 59, 65, 1);
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: top;
+    z-index: 5;
+  }
+
+  nav.hamburger-nav > ul{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+  }
+
+  nav.hamburger-nav > ul li{
+    padding: 5px;
+  }
+
+  nav.hamburger-nav > ul li:hover{
+    background-color: #f1f1f1;
+    transition: all 0.1s ease-in-out 0s;
+  }
+  nav.hamburger-nav > ul li:active{
+    color:#E47209;
+    transition: 0.1s s ease-in-out;
+  }
+
+  .overlay{
+    position: fixed;
+    /* opacity: 0; */
+    display: none;
+    transition: 200ms ease-in-out;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;
+}
+
+.overlay.active{
+    /* opacity: 1; */
+    display: block;
+    pointer-events: all;
+}
+   /*//hamburger-menu*/
+
 }
 
 @media screen and (max-width: 639px){
@@ -213,9 +278,67 @@ i.hamburger-menu{
     display: none;
   }
 
-  i.hamburger-menu{
-    display: block;
+
+    /*hamburger-menu*/
+    i.hamburger-menu{
+      display: block;
+      position: relative
+    }
+
+    nav.hamburger-nav{
+      display: none;
+
+
+      background:#ffffff;
+      position: absolute;
+      right: 0;
+      top: 26px;
+      color:rgba(51, 59, 65, 1);
+      font-size: 16px;
+      line-height: 22px;
+      vertical-align: top;
+      z-index: 5;
+    }
+
+    nav.hamburger-nav > ul{
+      display: flex;
+      flex-direction: column;
+      width: 295px;
+
+    }
+
+    nav.hamburger-nav > ul li{
+      padding: 3px;
+    }
+
+    nav.hamburger-nav > ul li:hover{
+      background-color: #f1f1f1;
+      transition: all 0.1s ease-in-out 0s;
+    }
+    nav.hamburger-nav > ul li:active{
+      color:#E47209;
+      transition: 0.1s s ease-in-out;
+    }
+
+    .overlay{
+      position: fixed;
+      /* opacity: 0; */
+      display: none;
+      transition: 200ms ease-in-out;
+      top:0;
+      left:0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,.5);
+      pointer-events: none;
   }
+
+  .overlay.active{
+      /* opacity: 1; */
+      display: block;
+      pointer-events: all;
+  }
+     /*//hamburger-menu*/
 }
 
 @media screen and (max-width: 320px){
