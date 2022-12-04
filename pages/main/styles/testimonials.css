@@ -98,6 +98,16 @@ section.testimonials{
 
 /*-------------*/
 
+.testimonial-card5,
+.testimonial-card6,
+.testimonial-card7,
+.testimonial-card8,
+.testimonial-card9,
+.testimonial-card10,
+.testimonial-card11{
+    display: none;
+}
+
 
 /*New version of scrol from W3school - https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
 .slidecontainer {
@@ -130,14 +140,16 @@ section.testimonials{
     -webkit-appearance: none;
     border-radius: 5px;
     appearance: none;
-    width: 115px;
+    width: 75px;
+    /* width: 12.5%; */
     height: 8px;
     background: #FE9013;
     cursor: pointer;
   }
 
   .slider::-moz-range-thumb {
-    width: 115px;
+    width: 75px;
+    /* width: 12.5%; */
     height: 8px;
     background: #04AA6D;
     cursor: pointer;

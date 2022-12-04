@@ -78,7 +78,7 @@ toRightButton.addEventListener("click", function(){
     petsCardsContainer.classList.add("fade");
 
     const myTimeout = setTimeout(() => petsCardsContainer.classList.remove("fade"), 150);
-    console.log("myTimeout", myTimeout);
+    // console.log("myTimeout", myTimeout);
 
 });
 
@@ -88,11 +88,60 @@ toLeftButton.addEventListener("click", function(){
     petsCardsContainer.classList.add("fade");
 
     const myTimeout = setTimeout(() => petsCardsContainer.classList.remove("fade"), 150);
-    console.log("myTimeout", myTimeout);
+    // // console.log("myTimeout", myTimeout);
 
 });
 /*//Carousel handling in PETS section*/
 
+
+/*Carousel handling in TESTIMONIALS section*/
+const testimonialCardsArr = [];
+let testimonialCard1 = document.getElementsByClassName("testimonial-card1")[0];
+let testimonialCard2 = document.getElementsByClassName("testimonial-card2")[0];
+let testimonialCard3 = document.getElementsByClassName("testimonial-card3")[0];
+let testimonialCard4 = document.getElementsByClassName("testimonial-card4")[0];
+let testimonialCard5 = document.getElementsByClassName("testimonial-card5")[0];
+let testimonialCard6 = document.getElementsByClassName("testimonial-card6")[0];
+let testimonialCard7 = document.getElementsByClassName("testimonial-card7")[0];
+let testimonialCard8 = document.getElementsByClassName("testimonial-card8")[0];
+let testimonialCard9 = document.getElementsByClassName("testimonial-card9")[0];
+let testimonialCard10 = document.getElementsByClassName("testimonial-card10")[0];
+let testimonialCard11 = document.getElementsByClassName("testimonial-card11")[0];
+
+testimonialCardsArr.push(testimonialCard1);
+testimonialCardsArr.push(testimonialCard2);
+testimonialCardsArr.push(testimonialCard3);
+testimonialCardsArr.push(testimonialCard4);
+testimonialCardsArr.push(testimonialCard5);
+testimonialCardsArr.push(testimonialCard6);
+testimonialCardsArr.push(testimonialCard7);
+testimonialCardsArr.push(testimonialCard8);
+testimonialCardsArr.push(testimonialCard9);
+testimonialCardsArr.push(testimonialCard10);
+testimonialCardsArr.push(testimonialCard11);
+let carouselLength = testimonialCardsArr.length;
+// console.log(testimonialCardsArr);
+
+let elemRange = document.querySelector('input[type="range"]');
+
+
+let rangeValue = function(){
+    let newValue = +elemRange.value;
+    let numberCardstoShow = 11 - +elemRange.max;
+
+    testimonialCardsArr.forEach((val, index) => (index >= newValue && index < newValue + numberCardstoShow) ? val.style.display = "block": val.style.display = "none");
+}
+
+window.onresize = () =>{
+    if(window.innerWidth >= 1441){
+        elemRange.setAttribute("max", 7);
+    } else if(window.innerWidth >= 1000 && window.innerWidth <= 1440){
+        elemRange.setAttribute("max", 8);
+    }
+    rangeValue();
+}
+elemRange.addEventListener("input", rangeValue);
+/*//Carousel handling in TESTIMONIALS section*/
 
 
 /*Popup handling in TESTIMONIALS section*/
