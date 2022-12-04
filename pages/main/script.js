@@ -29,6 +29,72 @@ function closeHamburgerMenu(e){
 /*// Hamburger menu handling in HEADER section*/
 
 
+/*Carousel handling in PETS section*/
+let cardOne = document.getElementsByClassName("card1")[0];
+let cardTwo = document.getElementsByClassName("card2")[0];
+let cardThree = document.getElementsByClassName("card3")[0];
+
+let cardFour = document.getElementsByClassName("card4")[0];
+let cardFive = document.getElementsByClassName("card5")[0];
+let cardSix = document.getElementsByClassName("card6")[0];
+
+
+let toRightButton = document.getElementsByClassName("arrow right")[0];
+let toLeftButton = document.getElementsByClassName("arrow left")[0];
+
+// returns a random number: 0 or 1
+const min = 0;
+const max = 2;
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
+
+const moveRight = () => {
+    /* Random shuffle */
+    cardOne.style.order = getRandomInt(min, max);
+    cardTwo.style.order = getRandomInt(min, max);
+    cardThree.style.order = getRandomInt(min, max);
+    cardFour.style.order = getRandomInt(min, max);
+    cardFive.style.order = getRandomInt(min, max);
+    cardSix.style.order = getRandomInt(min, max);
+}
+
+const moveLeft = () => {
+    /* Random shuffle */
+    cardOne.style.order = getRandomInt(min, max);
+    cardTwo.style.order = getRandomInt(min, max);
+    cardThree.style.order = getRandomInt(min, max);
+    cardFour.style.order = getRandomInt(min, max);
+    cardFive.style.order = getRandomInt(min, max);
+    cardSix.style.order = getRandomInt(min, max);
+}
+
+
+toRightButton.addEventListener("click", moveRight);
+toRightButton.addEventListener("click", function(){
+    let petsCardsContainer = document.getElementsByClassName("pets-cards-container")[0];
+    petsCardsContainer.classList.add("fade");
+
+    const myTimeout = setTimeout(() => petsCardsContainer.classList.remove("fade"), 150);
+    console.log("myTimeout", myTimeout);
+
+});
+
+toLeftButton.addEventListener("click", moveLeft);
+toLeftButton.addEventListener("click", function(){
+    let petsCardsContainer = document.getElementsByClassName("pets-cards-container")[0];
+    petsCardsContainer.classList.add("fade");
+
+    const myTimeout = setTimeout(() => petsCardsContainer.classList.remove("fade"), 150);
+    console.log("myTimeout", myTimeout);
+
+});
+/*//Carousel handling in PETS section*/
+
+
+
 /*Popup handling in TESTIMONIALS section*/
 
 // Get the card modal windows

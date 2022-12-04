@@ -61,6 +61,7 @@ section.pets{
     height: 426px;
     border-radius: 5px;
     border: 1px solid #FA6F32;
+    order: 0;
 }
 
 .pet-card > img{
@@ -138,6 +139,17 @@ p.name:hover{
     justify-content: center;
     margin-top: 80px;
 }
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .9}
+    to {opacity: 1}
+  }
 
 @media screen and (max-width: 1440px) {
     section.pets{
