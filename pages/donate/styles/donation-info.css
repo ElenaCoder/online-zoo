@@ -245,22 +245,6 @@ section.donation-info{
     outline: 2px solid #F9804B;
 }
 
-.three .small-ring{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    /* visibility: hidden; */
-    visibility: visible;
-
-    background: transparent;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    margin: -10px 0px 0px -10px;
-    outline: 2px solid #F9804B;
-}
-
 .big-ring{
     position: absolute;
     top: 50%;
@@ -276,13 +260,30 @@ section.donation-info{
     outline: 2px solid #F9804B;
 }
 
+.three .small-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* visibility: hidden; */
+    /* visibility: visible; */
+
+    background: transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: -10px 0px 0px -10px;
+    outline: 2px solid #F9804B;
+}
+
+
 .three .big-ring{
     position: absolute;
     top: 50%;
     left: 50%;
 
     /* visibility: hidden; */
-    visibility: visible;
+    /* visibility: visible; */
 
     background: transparent;
     border-radius: 50%;
@@ -290,6 +291,13 @@ section.donation-info{
     width: 36px;
     margin: -18px 0px 0px -18px;
     outline: 2px solid #F9804B;
+}
+
+.make-visible{
+    visibility: visible;
+}
+.make-hidden{
+    visibility: hidden;
 }
 
 .button-wrapper p {
@@ -358,9 +366,10 @@ form.amount-money{
     width: 268px;
     height: 54px;
     background-color: transparent;
-
+    font-size: 1.2rem;
     line-height: 22.4px;
     color: rgba(146, 150, 153, 1);
+    padding-left: 10px;
 }
 
 span{
@@ -617,6 +626,9 @@ form.form{
         margin-bottom: 0;
     }
 
+    /* .three .small-ring {
+        visibility: visible;
+    } */
 /*-------------------*/
 }
 
@@ -827,7 +839,7 @@ form.form{
         left: 50%;
 
         /* visibility: hidden; */
-        visibility: visible;
+        /* visibility: visible; */
 
         background: transparent;
         border-radius: 50%;
@@ -844,7 +856,7 @@ form.form{
         left: 50%;
 
         /* visibility: hidden; */
-        visibility: visible;
+        /* visibility: visible; */
 
         background: transparent;
         border-radius: 50%;
@@ -1149,7 +1161,7 @@ margin-left: -10px;
         left: 50%;
 
         /* visibility: hidden; */
-        visibility: visible;
+        /* visibility: visible; */
 
         background: transparent;
         border-radius: 50%;
@@ -1166,7 +1178,7 @@ margin-left: -10px;
         left: 50%;
 
         /* visibility: hidden; */
-        visibility: visible;
+        /* visibility: visible; */
 
         background: transparent;
         border-radius: 50%;
