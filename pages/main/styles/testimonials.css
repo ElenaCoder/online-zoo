@@ -109,6 +109,25 @@ section.testimonials{
 }
 
 
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+    /* animation-timing-function: ease-in-out;
+    animation-iteration-count: 1; */
+  }
+
+@keyframes fade {
+    from {
+        opacity: 0.7;
+        /* background-color: #898b8d; */
+    }
+    to {
+        opacity: 1;
+        /* background-color: #FF4136; */
+    }
+}
+
+
 /*New version of scrol from W3school - https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
 .slidecontainer {
     width: 599px;

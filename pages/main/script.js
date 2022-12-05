@@ -140,7 +140,17 @@ window.onresize = () =>{
     }
     rangeValue();
 }
+
 elemRange.addEventListener("input", rangeValue);
+
+elemRange.addEventListener("input", function(){
+    let testimonialsCardsRow = document.getElementsByClassName("testimonials-cars-row")[0];
+
+    testimonialsCardsRow.classList.add("fade");
+
+    const MyTimeout = setTimeout(() => testimonialsCardsRow.classList.remove("fade"),150);
+})
+
 /*//Carousel handling in TESTIMONIALS section*/
 
 
