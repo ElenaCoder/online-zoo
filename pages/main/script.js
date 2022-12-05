@@ -143,6 +143,7 @@ window.onresize = () =>{
 
 elemRange.addEventListener("input", rangeValue);
 
+/*----animation---- */
 elemRange.addEventListener("input", function(){
     let testimonialsCardsRow = document.getElementsByClassName("testimonials-cars-row")[0];
 
@@ -150,6 +151,7 @@ elemRange.addEventListener("input", function(){
 
     const MyTimeout = setTimeout(() => testimonialsCardsRow.classList.remove("fade"),150);
 })
+/*----//animation---- */
 
 /*//Carousel handling in TESTIMONIALS section*/
 
