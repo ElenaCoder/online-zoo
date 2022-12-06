@@ -318,6 +318,7 @@ section.pick-and-feed{
         width: 320px;
         height: 1082px;
         padding: 20px 10.5px;
+        overflow-x: hidden;
     }
     .pick-and-feed-content{
         width: 300px;

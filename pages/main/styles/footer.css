@@ -394,6 +394,7 @@ margin-bottom: 10px;
         height: 334px;
         /* padding-top: 20px;
         padding-bottom: 20px; */
+        overflow-x: hidden;
     }
     .footer-container{
         height: 334px;
