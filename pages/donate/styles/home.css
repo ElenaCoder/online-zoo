@@ -43,6 +43,7 @@ section.home{
 @media screen and (max-width:320px) {
     section.home{
         height: 187px;
+        overflow-x: hidden;
     }
     .home-bg-image{
         height: 187px;
