@@ -141,6 +141,15 @@ window.onresize = () =>{
     rangeValue();
 }
 
+window.onload = () =>{
+    if(window.innerWidth >= 1441){
+        elemRange.setAttribute("max", 7);
+    } else {
+        elemRange.setAttribute("max", 8);
+    }
+    rangeValue();
+}
+
 elemRange.addEventListener("input", rangeValue);
 
 /*----animation---- */
