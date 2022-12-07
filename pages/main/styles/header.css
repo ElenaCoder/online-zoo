@@ -150,6 +150,9 @@ nav.hamburger-nav{
 @media screen and (width: 640px){
   header.header{
     padding: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     }
   .header-logo{
     display: flex;
@@ -243,6 +246,9 @@ nav.hamburger-nav{
 @media screen and (max-width: 639px){
   header.header{
     padding: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
   .header-row{
