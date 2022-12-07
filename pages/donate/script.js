@@ -79,4 +79,18 @@ if(window.innerWidth <1000 && window.innerWidth >=320){
 
 
 
+// radioButtons.forEach(item => {
+//     if(!item.querySelector(".small-ring").classList.contains("make-visible")){
+//         item.addEventListener("mouseover", elem => {
+//             // item.querySelector(".small-ring").classList.add('make-visible');
+//             item.querySelector(".big-ring").classList.add('make-visible');
+//         })
+
+//         item.addEventListener("mouseout", elem => {
+//             // item.querySelector(".small-ring").classList.remove('make-visible');
+//             item.querySelector(".big-ring").classList.remove('make-visible');
+//         })
+//     }
+
+// })
 /*//Amount panel handling */
