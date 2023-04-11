@@ -1,4 +1,10 @@
-https://elenacoder.github.io/online-zoo/pages/main/
+🔔 🔔 🔔
+---
+### Project overview
+This is Online-zoo project, which was completed during the study period at Rolling Scopes School from October 2022 to March 2023. It was a 4-week long project, and at the end of each week, students were tasked with performing 4 cross-checks of their peers' work, following the provided technical requirements. CSS, HTML, and JavaScript were utilized in the implementation of the project.
+
+## [Link to Online-Zoo project GitHub Page](https://elenacoder.github.io/online-zoo/pages/main/)
+---
 # Online-zoo
 
 Online-zoo is a platform that contains information about animals from various zoos with webcams. 
